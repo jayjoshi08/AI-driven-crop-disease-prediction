@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai-Driven Crop Disease Prediction and Management System</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="lang" id="english">English</a></li>
+                <li><a href="#" class="lang" id="hindi">हिन्दी</a></li>
+            </ul>
+        </nav>
+        <h1>Ai-Driven Crop Disease Prediction and Management System</h1>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Sign In</h2>
+            <form id="login-form">
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <button id="login-btn">Sign In</button>
+            </form>
+            <p id="error-msg"></p>
+        </section>
+        <section class="upload-section">
+            <h2>Upload Plant Image</h2>
+            <form id="upload-form">
+                <input type="file" id="image-upload" accept="image/*">
+                <button id="upload-btn">Upload</button>
+            </form>
+            <div id="image-preview"></div>
+        </section>
+        <section class="result-section">
+            <h2>Disease Diagnosis Result</h2>
+            <p id="result-msg"></p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
