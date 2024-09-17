@@ -1,1 +1,2 @@
 # AI-driven-crop-disease-prediction
+AI-Driven Crop Disease Prediction and Management System is a website designed to assist farmers in diagnosing and managing crop diseases. Developed with HTML, CSS, JavaScript (trial model) it allows users to upload plant images for disease diagnosis. The website supports multiple languages (English and Hindi) and features a secure sign-in process for user access.
